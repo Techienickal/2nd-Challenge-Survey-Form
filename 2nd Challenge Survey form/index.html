@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="CSS/style.css">
+   <title>Survey Form</title>
+    <h1 id="title">Business Demographic Survey Form</h1>
+    <p id="description"> <em>Thank you for your participation in our survey! Please answer the questions below so we can learn more about you.</em></p>
+    
+    <div id="body">
+<form id="survey-form">
+
+<label id="name-lable" for="name"> 
+<p>Name:</p>
+</label>
+<input id="name" type="text" placeholder="Enter Your Name" required>
+
+<label id="email-lable" for="email"> 
+<p>Email:</p>
+</label>
+<input id="email" type="email" placeholder="Enter Your Email Address" required>
+
+<label id="number-lable" for="number"> 
+<p>Age:</p>
+</label>
+<input id="number" type="number" placeholder="Enter Your Age" min="18" max="65"required>
+
+
+<p> What is your level of education?</p>
+<select id="dropdown">
+    <option value="default">Some high school</option>
+    <option value="default">High school graduate or equivalent</option>
+    <option value="default">Trade or vocational degree</option>
+    <option value="default">Some college</option>
+    <option value="default">Associate degree</option>
+    <option value="default">Bachelor's degree</option>
+    <option value="default">Graduate or Professional degree</option>
+    <option value="default">Prefer not to answer</option>
+</select>
+
+<p> Which Industry Do You Work In? </p>
+
+    <input type="radio" name="profession" value="1">Advertising</input>
+<br>
+    <input type="radio" name="profession" value="2">Accounting</input>
+<br>
+    <input type="radio" name="profession" value="3">Aerospace</input>
+<br>
+    <input type="radio" name="profession" value="4">Food Service</input>
+<br>
+     <input type="radio" name="profession" value="5">Biotechnology</input>
+<br> 
+      <input type="radio" name="profession" value="5">Engineering</input>
+ <br>
+      <input type="radio" name="profession" value="7">Legal</input>
+      
+<p>What is Your Company's Annual Revenue?</p>
+
+<input type="checkbox" name="money" value="1">Under $10,000</input> 
+<br>
+<input type="checkbox" name="money" value="2">$10,000 to $50,000</input> 
+<br>
+<input type="checkbox" name="money" value="3">$50,000 to $100,000</input> 
+<br>
+<input type="checkbox" name="money" value="4">$100,000 to $500,000</input> 
+<br>
+<input type="checkbox" name="money" value="5">$500,000 to $1 Million</input> 
+<br>
+
+<textarea id="comment" rows="4" cols="40">Add Your Comments Here</textarea>
+<br>
+<input id="submit" type="submit" value="SUBMIT"></input> 
+
+</div>
+
+
+</form>
+
